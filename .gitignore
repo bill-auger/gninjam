@@ -1,0 +1,43 @@
+
+# automake files
+autom4te.cache/
+aclocal.m4
+config.guess
+config.h*
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+*Makefile
+*Makefile.in*
+libtool
+ltmain.sh
+missing
+mkinstalldirs
+po/POTFILES
+po/de.gmo
+src/.deps/
+stamp-h1
+
+# anjuta project files
+.anjuta/
+*.anjuta
+.anjuta_sym_db.db
+
+# svn files (from kxstudio repo)
+*.svn/
+
+# compiled objects
+*.o
+
+# executables
+bin/
+src/gninjam
+
+# orphaned runtime caches
+*.ninjam
+
+# backup files
+*~

@@ -1,0 +1,205 @@
+gninjam (0.01a+svn121-1ubuntu0~quantal1) quantal; urgency=low
+
+  * Quantal build
+
+ -- falkTX <falktx@gmail.com>  Wed, 17 Oct 2012 17:22:42 +0100
+
+gninjam (0.01a+svn121-1ubuntu0~precise1) precise; urgency=low
+
+  * Precise build
+
+ -- falkTX <falktx@gmail.com>  Wed, 24 Aug 2011 16:48:11 +0100
+
+gninjam (0.01a+svn121-1ubuntu0~lucid1) lucid; urgency=low
+
+  * Upload to KXStudio Team PPA
+
+ -- falkTX <falktx@gmail.com>  Thu, 28 Apr 2011 15:38:37 +0100
+
+gninjam (0.01a+svn121-1~ppa4) lucid; urgency=low
+
+  * Moved to Lucid Main
+
+ -- falkTX <falktx@gmail.com>  Mon, 28 Jun 2010 16:25:59 +0100
+
+gninjam (0.01a+svn121-1~ppa3) lucid; urgency=low
+
+  * Miising build deps (autoconf & automake)
+
+ -- falkTX <falktx@gmail.com>  Wed, 16 Jun 2010 11:15:44 +0100
+
+gninjam (0.01a+svn121-1~ppa2) lucid; urgency=low
+
+  *  libsigc++-2.0-dev missing
+
+ -- falkTX <falktx@gmail.com>  Wed, 16 Jun 2010 11:04:31 +0100
+
+gninjam (0.01a+svn121-1~ppa1) lucid; urgency=low
+
+  * Fixed debian build rules
+  * Massive code hack! - Port code to sigc++2.0
+
+ -- falkTX <falktx@gmail.com>  Wed, 16 Jun 2010 10:58:51 +0100
+
+gninjam (0.01a+svn121-0~ppa4) lucid; urgency=low
+
+  * Fix
+
+ -- falkTX <falktx@gmail.com>  Wed, 02 Jun 2010 11:59:08 +0100
+
+gninjam (0.01a+svn121-0~ppa3) lucid; urgency=low
+
+  * Run autogen.sh before configure
+
+ -- falkTX <falktx@gmail.com>  Wed, 02 Jun 2010 10:25:28 +0100
+
+gninjam (0.01a+svn121-0~ppa2) lucid; urgency=low
+
+  * Don't run make if Makefile doesn't exist
+
+ -- falkTX <falktx@gmail.com>  Wed, 02 Jun 2010 10:01:18 +0100
+
+gninjam (0.01a+svn121-0~ppa1) lucid; urgency=low
+
+  * Upload to Lucid-Latest
+
+ -- falkTX <falktx@gmail.com>  Thu, 20 May 2010 16:33:13 +0100
+
+gninjam (0.01a-13ubuntu1) jaunty; urgency=low
+
+  * fix compilation on intrepid
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Tue, 27 Jan 2009 22:42:20 +0100
+
+gninjam (0.01a-13) gutsy; urgency=low
+
+  * add per-user autosubscribe option in preferences dialog
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Sat, 16 Feb 2008 16:18:58 +0100
+
+gninjam (0.01a-12ubuntu1) gutsy; urgency=low
+
+  * start gui even if audio interface could not be successfully initialized.
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Mon, 11 Feb 2008 14:58:52 +0100
+
+gninjam (0.01a-12) gutsy; urgency=low
+
+  * disable markup for the label of the RemoteUserFrame to overcome 
+    those gtk warnings about the @ symbol.
+  * add checkbutton for anonymous login
+  * add accelerator to connect dialog, so that it is possible to simply
+    press return to connect
+  * add about dialog
+ -- Tobias Gehrig <tobias@gehrignet.de>  Mon, 05 Feb 2008 01:18:02 +0100
+
+gninjam (0.01a-11ubuntu5) gutsy; urgency=low
+
+  * escape more chat messages to overcome those Gtk-warnings
+  * make empty strings non-translatable
+  * fix preference dialog to show correct value of savelocalaudio after startup
+  * make bitrate configurable for each local channel
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Thu, 31 Jan 2008 01:35:06 +0100
+
+gninjam (0.01a-11ubuntu4) gutsy; urgency=low
+
+  * rebuild with new libninjam version
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Sun, 20 Jan 2008 01:51:47 +0100
+
+gninjam (0.01a-11ubuntu3) feisty; urgency=low
+
+  * fix automatic scrolling of chat log (patch by Adam Sampson)
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Thu, 11 Jan 2007 20:59:09 +0100
+
+gninjam (0.01a-11ubuntu2) feisty; urgency=low
+
+  * use pkgconfig file of ninjam-client instead of ninjam
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Thu, 11 Jan 2007 00:25:44 +0100
+
+gninjam (0.01a-11ubuntu1) feisty; urgency=low
+
+  * use pkgconfig file of libninjam to get include and lib paths
+    (patch by Adam Sampson)
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Wed, 10 Jan 2007 21:29:45 +0100
+
+gninjam (0.01a-11) unstable; urgency=low
+
+  * added remote user master control
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Sat, 25 Nov 2006 23:16:15 +0100
+
+gninjam (0.01a-10) unstable; urgency=low
+
+  * fix markup problem
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Thu, 23 Nov 2006 19:24:37 +0100
+
+gninjam (0.01a-9) unstable; urgency=low
+
+  * add internationalization
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Thu, 23 Nov 2006 17:53:08 +0100
+
+gninjam (0.01a-8) unstable; urgency=low
+
+  * change menu items so that everything is consistently in english
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Thu, 23 Nov 2006 16:23:51 +0100
+
+gninjam (0.01a-7) unstable; urgency=low
+
+  * fix border in remote channel view
+  * fix gtkmm dependencies in configure.in
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Thu, 23 Nov 2006 02:03:50 +0100
+
+gninjam (0.01a-6) unstable; urgency=low
+
+  * changed remote channel view so that the user name is displayed above
+    all of the users channels not within each channel seperately
+  * added support for output channel selection
+  * added de-/selection of views to hide those that are note wanted
+  * added handlebar to master controls to tear it of the window
+  * changed callback for gui update so that the gui is only updated when
+    needed
+  * added support to switch between stereo and mono mode for output channels
+  * added item in channel lists to add new channels while run-time
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Wed, 22 Nov 2006 04:09:14 +0100
+
+gninjam (0.01a-5) unstable; urgency=low
+
+  * make number of in-/output channels for jack configurable
+  * make default connection parameters configurable
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Sun, 19 Nov 2006 02:16:35 +0100
+
+gninjam (0.01a-4) unstable; urgency=low
+
+  * use gconf for saving channel parameters
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Sat, 18 Nov 2006 13:41:04 +0100
+
+gninjam (0.01a-3) unstable; urgency=low
+
+  * added preference dialog
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Sat, 18 Nov 2006 04:01:27 +0100
+
+gninjam (0.01a-2) unstable; urgency=low
+
+  * added dependency for libninjam-client
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Fri, 17 Nov 2006 17:16:05 +0100
+
+gninjam (0.01a-1) unstable; urgency=low
+
+  * Initial release with debian packaging
+
+ -- Tobias Gehrig <tobias@gehrignet.de>  Fri, 17 Nov 2006 16:50:49 +0100
+
